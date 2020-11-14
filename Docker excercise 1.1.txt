@@ -1,1 +1,4 @@
-Testing
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS                      PORTS               NAMES
+0feeb83963c1        nginx               "/docker-entrypoint.…"   About a minute ago   Exited (0) 54 seconds ago                       goofy_payne
+5d9a721a7f3d        nginx               "/docker-entrypoint.…"   About a minute ago   Exited (0) 44 seconds ago                       friendly_bohr
+ad096c71589c        nginx               "/docker-entrypoint.…"   2 minutes ago        Up 2 minutes                80/tcp              festive_banach
