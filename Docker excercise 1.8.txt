@@ -1,0 +1,5 @@
+docker run --name docker -it devopsdockeruh/first_volume_exercise
+docker cp docker:/usr/app/logs.txt .
+
+Secret message is:
+"Volume bind mount is easy"
