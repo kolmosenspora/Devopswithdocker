@@ -1,0 +1,9 @@
+
+services:
+
+  first-volume-excercise:
+    image: devopsdockeruh/first_volume_exercise
+    build: .
+    volumes:
+      - .:/mydir
+    container_name: first-volume
