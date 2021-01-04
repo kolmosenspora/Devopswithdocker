@@ -1,0 +1,17 @@
+services:
+
+  first-volume-excercise:
+    image: devopsdockeruh/first_volume_exercise
+    build: .
+    volumes:
+      - .:/mydir
+    container_name: first-volume
+
+  ports-excercise:
+      image: devopsdockeruh/ports_exercise
+      build: .
+      volumes:
+        - .:/mydir
+      container_name: ports_excercise
+      ports:
+        - 80:80
