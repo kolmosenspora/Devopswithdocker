@@ -1,0 +1,11 @@
+
+services:
+
+  ports-excercise:
+    image: devopsdockeruh/ports_exercise
+    build: .
+    volumes:
+      - .:/mydir
+    container_name: ports_excercise
+    ports:
+    - 80:80
